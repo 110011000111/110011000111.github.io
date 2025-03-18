@@ -1,0 +1,44 @@
+baseURL: "https://110011000111.github.io/" # 主站的 URL
+title: SevenZero's Blog # 站点标题
+copyright: "[©2024 SevenZero's Blog](https://110011000111.github.io/)" # 网站的版权声明，通常显示在页脚
+theme: PaperMod # 主题
+languageCode: zh-cn # 语言
+
+defaultContentLanguage: zh
+defaultContentLanguageInSubdir: true
+
+enableInlineShortcodes: true # shortcode，类似于模板变量，可以在写 markdown 的时候便捷地插入，官方文档中有一个视频讲的很通俗
+enableEmoji: true # 允许 emoji
+
+languages:
+  zh:
+    languageName: "中文" # 展示的语言名
+    weight: 1 # 权重
+    taxonomies: # 分类系统
+      category: categories
+      tag: tags
+    # https://gohugo.io/content-management/menus/#define-in-site-configuration
+    menus:
+      main:
+        - name: 首页
+          pageRef: /
+          weight: 4 # 控制在页面上展示的前后顺序
+        - name: 标签
+          pageRef: tags/
+          weight: 10
+        - name: 关于
+          pageRef: about/
+          weight: 21
+
+params:
+  # 设置网站的标签页的图标，即 favicon
+  assets:
+      favicon: "favicon.png"
+      favicon16x16: "favicon.png"
+      favicon32x32: "favicon.png"
+      apple_touch_icon: "favicon.png"
+      safari_pinned_tab: "favicon.png"
+
+caches:
+  images:
+    dir: :cacheDir/images
