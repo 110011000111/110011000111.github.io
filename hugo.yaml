@@ -28,7 +28,7 @@ languages:
           weight: 10
         - name: 关于
           pageRef: about/
-          weight: 21
+          weight: 15
 
 params:
   # 设置网站的标签页的图标，即 favicon
