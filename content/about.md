@@ -6,5 +6,12 @@ url: "about/"
 summary: about
 ---
 
+这里是SevenZero（7z）
 
-this is a about
+名字来源由某压缩格式乱想而来
+
+博客主略抽象，博文好像乱想居多（是屎，别看
+
+
+
+​	**压缩** **保存**
