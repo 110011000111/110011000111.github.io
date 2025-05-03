@@ -20,6 +20,3 @@ summary: about
 
 HUGO+Github Page，主题是PaperMod
 
-
-
-​	**压缩** **保存**
