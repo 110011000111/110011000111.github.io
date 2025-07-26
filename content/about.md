@@ -8,5 +8,5 @@ summary: about
 
 这里是SevenZero（7z）
 
-方案是HUGO+Github Page，主题是PaperMod
+博客采用HUGO+Github Page，主题是PaperMod
 
