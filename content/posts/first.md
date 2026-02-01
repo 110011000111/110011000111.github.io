@@ -10,5 +10,7 @@ mobile test
 
 picture test
 
+vscode test --from mipad5 win
+
 ![202503184629f202503182306422288.jpg (1919×1080)](https://kycloud3.koyoo.cn/202503184629f202503182306422288.jpg)
 
